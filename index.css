@@ -1,0 +1,80 @@
+body {
+    background-image: url("savings-pattern.png");
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    }
+
+.container{
+    margin: 230px auto;
+    background-color: #F1EAD1;
+    max-height: 500px;
+    max-width: 530px;
+    border-radius: 10px;
+    padding:45px 50px;
+    color:#0A1045;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.container-btn{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+    margin: 30px 0px 35px;
+}
+
+button {
+    font-family: inherit;
+    color:#F1EAD1;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #0A1045;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: #C93442;
+}
+
+
+#increment-btn:hover, #save-btn:hover{
+    background:#F1EAD1;
+}
+
+#increment-btn:hover{
+    color:#C93442;
+    border: 3px solid #C93442;
+}
+
+#save-btn {
+    background: #136f63;
+}
+
+#save-btn:hover{
+    border: 3px solid #136f63;
+    color:#136f63;
+}
+
+#save-el{
+    font-size: 25px;
+    font-weight: bolder;
+}
